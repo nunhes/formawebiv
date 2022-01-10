@@ -44,7 +44,7 @@ Dentro das páxinas web dinámicas podemos distinguir dous tipos:
 1. Aquelas que inclúen código que se executa no navegador, normalmente en linguaxe **JavaScript** que se descarga xunto coa páxina. Cando o navegador amosa a páxina en pantalla, executa o código que a acompaña. Este código pode incorporar funcións que poden ir desde amosar animacións hasta cambiar totalmente a apariencia e o contido da páxina.
 2. Aquelas que no lado do servidor executan códigos de guión - **.php, .asp, .jsp, .cgi** ou **.aspx**-, e que xeran os contidos que se van a servir dunha **forma dinámica**. A partir de certas instruccións e/ou da execución de programas e funcións no servidor, se construen documentos que han chegar ao cliente como un documento html que non existe coma tal en ningures.
 
-~~*Exemplo de comprensión:* Accede a [ESTE](https://jairogarciarincon.com/game/game-of-thrones) ejercicio, elixe un personaje y analiza el código fuente del div id="preview" primero con el Inspector (ponte encima del Área de previsualización: clic con botón derecho, inspeccionar elemento) y luego en la páxina "Ver código fuente" (ponte encima del fondo, clic con botón derecho, ver código fuente). Escribe ahora algo en la Ventana de edición ¿Hay alguna diferencia entre los dos casos? ¿Por qué?~~
+
 
 O esquema de funcionamiento dunha páxina web dinámica é o seguinte:
 
@@ -55,7 +55,6 @@ O esquema de funcionamiento dunha páxina web dinámica é o seguinte:
 5. O resultado da execución será unha páxina en formato HTML, similar a calquera outra páxina web non dinámica.
 6. O servidor web envía o resultado obtido ao navegador, que a procesa e amosa en pantalla.
 
-~~Ejemplo de comprensión (por el profesor): Analizar el flujo de información entre módulos para recuperar la páxina web de la clase actual.~~
 
 
 
@@ -103,7 +102,6 @@ Esta división é así porque o código que se executa no cliente web (no teu
 
 Máis, desde fai uns anos existen técnicas de desenvolvemento web como **AJAX** e *frameworks* progresivos tales como **React**, **Angular** ou **Vue**, que nos posibilitan realizar programas nos que o código JavaScript que se executa no navegador poida comunicarse cun servidor de forma asíncrona e obter información coa que, por exemplo, modificar a páxina web actual ou enviar un correo sen necesidade de recargar a páxina.
 
-~~Ejemplo de comprensión: Autorellenado en la páxina web de Google.~~
 
 
 
@@ -148,9 +146,6 @@ A primeira elección que terás que  facer antes de comenzar a programar unha 
 - Contas con algún servidor web ou xestor de base de datos dispoñible ou podes decidir libremente utilizar o que creas necesario?
 - Que tipo de licenza vas a aplicar á aplicación que desenvolvas?
 
-
-
-~~Exercicio de comprensión: Elixir as ferramentas e tecnoloxías axeitadas para o curso a partir das especificacións e necesidades do centro.~~
 
 
 
@@ -237,7 +232,7 @@ Para o desenvolvemento dependemos dunha conexión permanente e de calidade ou po
 
 
 
-![Página de Apache Friends](C:\Users\User\Documents\odin\assets\Página de Apache Friends-0s00.png)Fuente: Elaboración propia
+![Página de Apache Friends](./assets/Página de Apache Friends-0s00.png)Fuente: Elaboración propia
 
 
 
@@ -245,7 +240,7 @@ Para o desenvolvemento dependemos dunha conexión permanente e de calidade ou po
 
 
 
-![Componentes de XAMPP](C:\Users\User\Documents\odin\assets\Componentes de XAMPP-ND95.png)
+![Componentes de XAMPP](./assets/Componentes de XAMPP-ND95.png)
 
 
 
@@ -253,7 +248,7 @@ Para o desenvolvemento dependemos dunha conexión permanente e de calidade ou po
 
 
 
-![Alerta de seguridad de Windows](C:\Users\User\Documents\odin\assets\Alerta de seguridad de Windows-0cZC.png)
+![Alerta de seguridad de Windows](./assets/Alerta de seguridad de Windows-0cZC.png)
 
 
 
@@ -263,13 +258,13 @@ Para o desenvolvemento dependemos dunha conexión permanente e de calidade ou po
 
 
 
-![Modificación httpd.conf](C:\Users\User\Documents\odin\assets\Modificación httpd.conf-J1Lt.png)
+![Modificación httpd.conf](./assets/Modificación httpd.conf-J1Lt.png)
 
 6. Si o problema os tes co porto **https 443**, accede desde o *Control Panel* a *Config > Apache (httpd-ssl.conf)*, busca a liña **Listen 443** e substitúea por **Listen 444** (ou calquera outro porto que non cause problemas aoiniciar **Apache**).
 
 
 
-![Modificación httpd-ssl.conf](C:\Users\User\Documents\odin\assets\Modificación httpd-ssl.conf-Mzaz.png)
+![Modificación httpd-ssl.conf](./assets/Modificación httpd-ssl.conf-Mzaz.png)
 
 
 
