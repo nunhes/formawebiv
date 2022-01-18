@@ -6,7 +6,7 @@ Nas últimas décadas, **as metodoloxías áxiles de desenvolvemento de software
 
 Algunhas empresas seguen utilizando **metodoloxías tradicionais de desenvolvemento de software** ,   que poden seguir vixentes dependendo do proxecto e do negocio. Sexa como for, empregar metodoloxías de desenvolvemento de software é imprescindible no ámbito da programación web e similares para xerar software de alta calidade. 
 
-## Que é unha metodoloxía de desenvolvemento de software? 
+## Que é unha metodoloxía de desenvolvemento de software?
 
 **As metodoloxías de desenvolvemento de software son un conxunto de técnicas e métodos organizativos** que se aplican ao deseño de solucións de software informático. O obxectivo das diferentes metodoloxías é tentar organizar a  equipos de traballo para que desenvolvan as funcións dun  programa da mellor maneira posible. 
 
@@ -47,7 +47,7 @@ As principais metodoloxías áxiles son:
 - **Kanban** : metodoloxía de traballo inventada pola empresa   Coches Toyota. Consiste en dividir as tarefas en porcións mínimas   e organízaos nun cadro de traballo dividido en tarefas pendentes,   en curso e rematado. Isto crea un fluxo de traballo altamente eficiente.   visual baseada en tarefas prioritarias e aumentando o valor da   produto. 
 - **Scrum** : tamén é unha metodoloxía incremental que divide   requisitos e tarefas dun xeito similar ao Kanban. Repasa   bloques de tempos curtos e fixos (entre dúas e catro semanas) para   obtén un resultado completo en cada iteración. As etapas son:   planificación de iteración (planning sprint), execución (sprint),   reunión diaria (reunión diaria) e demostración de resultados (sprint   revisión). Tamén se chama cada iteración a través destas etapas   sprint. 
 - **Lean** : Está configurado para que equipos pequenos de   traballadores de desenvolvemento altamente cualificados completan calquera tarefa en pouco tempo. O   os activos máis importantes son as persoas e o seu compromiso, relegando así   o tempo e os custos pasan a un segundo plano. Aprendizaxe, reaccións   A rapidez e o empoderamento do equipo son esenciais. 
-- **Programación extrema (XP)** : é unha metodoloxía de   desenvolvemento de software baseado en relacións interpersoais, que é   consideran a clave do éxito. O seu obxectivo principal é crear un ben   ambiente de traballo en equipo e que hai un feedback constante por parte do   clienta. O traballo baséase en 12 conceptos: deseño sinxelo, probas,   refactorización e codificación con estándares, propiedade colectiva do   código, programación de pares, integración continua, entregables   semanal e integridade co cliente, cliente no lugar, entregas   frecuente e de planificación. 
+- **Programación extrema (XP)** : é unha metodoloxía de desenvolvemento de software baseado en relacións interpersoais, que se consideran a clave do éxito. O seu obxectivo principal é crear un bo ambiente de traballo en equipo e que haxa un feedback constante por parte do cliente. O traballo baséase en 12 conceptos: deseño sinxelo, probas, refactorización e codificación con estándares, propiedade colectiva do código, programación de pares, integración continua, entregables semanais e integridade co cliente, cliente no lugar, entregas frecuentes e de planificación. 
 
 ​                  ![tipos-de-metodoloxías-de-desenvolvemento-de-software](file:///C:/Users/User/Downloads/Metodolog%C3%ADas%20de%20desarrollo%20software%20Blog%20Becas%20Santander_ficheiros/metodologias-desarrollo-software.jpeg)                
 
@@ -66,7 +66,7 @@ Os termos DevOps e Agile  forman parte do mundo do desenvolvemento de software, 
 
 Ambas ferramentas poden  converxer e mesmo transcender o desenvolvemento de calquera proxecto,  produto ou servizo de software, e aínda que son fundamentalmente  diferentes, tamén teñen as súas semellanzas. Ademais de que DevOps  aproveita metodoloxías áxiles, ambos teñen obxectivos similares: **acelerar os procesos de desenvolvemento e distribución de software** . 
 
-  [                   ![devops-agile-2](C:\Users\User\Documents\odin\assets\cta-futuro.jpeg)               ](https://www.becas-santander.com/es/index.html)    
+
 
 ## Que é DevOps? 
 
@@ -97,7 +97,7 @@ Todos eles teñen unha  estrutura organizativa baseada no traballo en equipo e n
 
 Despois de definir cada un  destes termos, poderás albiscar os elementos en común entre DevOps e  Agile, e tamén as súas diferenzas. A principal similitude é que **ambos permiten acelerar os diferentes procesos de desenvolvemento e distribución de software** utilizando a organización e o traballo en equipo como principal ferramenta. 
 
-E a **diferenza fundamental é que DevOps tenta reunir a dous equipos grandes e diferenciados** para mellorar a comunicación entre eles para lanzar software máis rápido,  mentres que Agile céntrase en facer que os equipos pequenos colaboren  entre si para adaptarse máis rapidamente aos posibles cambios durante o  desenvolvemento. aplicación. 
+E a **diferenza fundamental é que DevOps tenta reunir a dous equipos grandes e diferenciados** para mellorar a comunicación entre eles para lanzar software máis rápido,  mentres que Agile céntrase en facer que os equipos pequenos colaboren  entre si para adaptarse máis rapidamente aos posibles cambios durante o desenvolvemento da aplicación. 
 
 Non obstante, as **dúas metodoloxías adoitan utilizarse conxuntamente xa que son totalmente compatibles.** Grazas á combinación de DevOps e Agile, moitas empresas están a acelerar  considerablemente os seus proxectos de enxeñería de software, logrando  resultados de alta calidade en menor tempo. 
 

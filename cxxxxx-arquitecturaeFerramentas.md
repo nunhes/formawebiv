@@ -116,11 +116,11 @@ Os compoñentes principais cos que debes contar para executar aplicacións web n
 
 
 
-A demáis dos compoñentes a utilizar, tamén é importante decidir como vas a organizar o código da aplicación. Moitas das arquitecturas que se usan na programación de aplicacións web axudan a *estructurar o código das aplicacións en capas ou niveles*.
+A demais dos compoñentes a utilizar, tamén é importante decidir como vas a organizar o código da aplicación. Moitas das arquitecturas que se usan na programación de aplicacións web axudan a *estructurar o código das aplicacións en capas ou niveles*.
 
 O motivo de dividir en capas o desnvolvemento ou diseño dunha aplicación é que se poidan separar as funcións lóxicas da mesma, e incluso que sexa posible executar cada unha nun servidor distinto (no caso de que se considere necesario).
 
-Nunha aplicación se poden distinguir, de forma xeral, funcións de **visualización** (encargadas de darlle formato aos datos para presentálos aos usuarios finais), operacións de **lóxica** (emprego dos datos para executar un proceso e obter un resultado), persistencia (ou mantemento dos datos almacenados de forma organizada) e **acceso** (para obter, introducir e administrar os datos no espazo de almacenamento).
+Nunha aplicación se poden distinguir, de forma xeral, funcións de **visualización** (encargadas de darlle formato aos datos para presentálos aos usuarios finais), operacións de **lóxica** (emprego dos datos para executar un proceso e obter un resultado), **persistencia** (ou mantemento dos datos almacenados de forma organizada) e **acceso** (para obter, introducir e administrar os datos no espazo de almacenamento).
 
 Este patrón de arquitectura de software se coñece como [MVC - Modelo Vista Controlador](https://es.wikipedia.org/wiki/Modelo–vista–controlador). "... un patrón de [arquitectura de software](https://es.wikipedia.org/wiki/Arquitectura_de_software), que separa os [datos](https://es.wikipedia.org/wiki/Datos) e principalmente o que é a [lóxica de negocio](https://es.wikipedia.org/wiki/Lógica_de_negocio) dunha aplicación da súa representación e o módulo encargado de xestionar os eventos e as comunicacións. (*Fonte: Wikipedia*). Aínda que se creou para aplicacións de escritorio, acabou convertido na base da maioría dos *frameworks* de desenvolvemento web actuais.
 
