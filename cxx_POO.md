@@ -37,7 +37,6 @@ Tipos de aplicacións:
 
 *A razón básica pola que se require dispor dun proceso de desenvolvemento é mellorar a seguridade do traballo eliminando riscos innecesarios e conseguir un produto da máxima calidade.*
 
-
 ### Obxectivos dun proceso de desenvolvemento
 
 Proporcionar unha guía de execución do proxecto que defina para os técnicos a secuencia de tarefas que se requiren e os produtos que se deben xerar. 
