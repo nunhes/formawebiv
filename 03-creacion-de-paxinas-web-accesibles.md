@@ -70,6 +70,36 @@ Na área de ferramentas para desenvolvedores do teu navegador, atoparás a ferra
 
 ✅Busca Lighthouse no panel de ferramentas para desenvolvedores do teu navegador e realiza unha análise en calquera sitio. Que descobres?
 
+#### Xeración de puntuación de accesibilidade dunha páxina con Lighthouse
+
+Proba Lighthouse no explorador. Nas capturas de pantalla seguintes úsase Edge, pero podes seguir os mesmos pasos en Chrome e outros navegadores.
+
+1. Abre o explorador e vai até á páxina web principal de Microsoft.
+
+2. Presiona a tecla F12 para abrir as ferramentas de desenvolvemento.
+
+3. Na parte superior, selecciona o botón de contido adicional (>>) para abrir a lista de pestanas ocultas.
+
+![Captura de pantalla das ferramentas de desenvolvemento có botón de contido adicional resaltado.](./assets/choose-tab.png)
+
+4. Selecciona Lighthouse na lista.
+
+5. En Categories (Categorías), desactiva tódolos elementos, excepto Accessibility (Accesibilidade).
+
+6. En Device (Dispositivo), selecciona Desktop (Escritorio).
+
+![Captura de pantalla de Lighthouse con Accessibility (Accesibilidad) seleccionado en Categories (Categorías), e Desktop (Escritorio) seleccionado en Device (Dispositivo).](./assets/lighthouse-option-selection.png)
+
+7. Selecciona 'Generate report' (Xerar informe).
+
+8. Observa a puntuación e a información asociada sobre a páxina.
+
+9. Para probar outras páxinas, selecciona Clear all (Borrar todo) en Lighthouse, vai a outra páxina e, a continuación, selecciona Generate report (Xerar informe).
+
+![Captura de pantalla da sección de URL de Lighthouse, có botón para borrar todos os elementos resaltado.](./assets/lighthouse-clear.png)
+
+Xa coñeces Lighthouse, e a información sobre accesibilidade que pode proporcionar. Emprega agora a ferramenta nos teus proxectos para mellorar a accesibilidade dos mesmos.
+
 ## Deseño para a accesibilidade
 
 A accesibilidade é un tema ben extenso. Para axudarche a entedela hai moitos recursos dispoñibles.
@@ -163,8 +193,9 @@ Podes usar `aria-label` para describir unha ligazón cando o formato da páxina 
 
 ✅En xeral, o uso dun marcado semántico axustado substitúe o uso de ARIA, pero ás veces non hai un equivalente semántico para os varios usos dos elementos HTML. Un bo exemplo é un esquema ou diagrama en árbore. Non hai un equivalente HTML para definir dita árbore, polo que so se identificaran os xenéricos `<div>` que comporían ese elemento. A menos que conten con roles e valores de aria adaptados. Consulta a [documentación de MDN sobre ARIA](https://developer.mozilla.org/docs/Web/Accessibility/ARIA).
 
-```
-< h2 id =" tree-label " > Visor de ficheiros </ h2 > < div role =" árbore " aria-labelledby =" etiqueta da árbore " > < div role =" treeitem " aria-expanded =" false " tabindex =" 0 " > Cargas </ div > </ div >  
+```html
+<h2 id="tree-label">Visor de arquivos</h2>
+<div role="tree" aria-labelledby ="tag for tree" > < div role =" treeitem " aria-expanded =" false " tabindex =" 0 " > Cargas </ div > </ div >  
   
      
 ```
@@ -199,6 +230,8 @@ E demostrará que sabes resolver dous problemas dunha vez. :champagne:
 
 Toma este HTML e reescribío para que sexa o máis accesible posible, dadas as estratexias que aprendeches.
 
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -246,6 +279,9 @@ Toma este HTML e reescribío para que sexa o máis accesible posible, dadas as e
     </div>
   </body>
 </html>
+```
+
+
 
 
 
@@ -269,17 +305,19 @@ Moitos exemplos na web afirman ser accesibles pero poden non selo, ou poden segu
 
 ### - Use o tema web Folwell
 
-O [tema web Folwell](https://folwell.umn.edu/) da Universidade foi construído para ser accesible desde a caixa. Os compoñentes accesibles están incluídos nas versións empresariais de Drupal 8 e Drupal 8 Lite. O sitio da [biblioteca de patróns](http://pattern-library.umn.edu/) alberga código Folwell para desenvolvedores que traballan fóra de Drupal.
+O [tema web Folwell](https://folwell.umn.edu/) da Universidade foi construído para ser accesible desde o comezo. Os compoñentes accesibles están incluídos nas versións empresariais de Drupal 8 e Drupal 8 Lite. **O sitio da [biblioteca de patróns](http://pattern-library.umn.edu/) alberga código Folwell para desenvolvedores que traballan fóra de Drupal**.
 
 Todos os [compoñentes de Folwell](https://folwell.umn.edu/folwell-components) teñen en conta as medidas de accesibilidade que se incorporaron a cada compoñente. Consulte a pestana "Accesibilidade" na parte inferior de cada páxina de compoñente individual para obter máis información.
 
+Pode ser un bo sitio onde probar, coñecer e entender as implicacións a nivel de redacción do código que escribes normalmente para facer un sitio accesible.
+
 ### - Escribir código accesible desde o principio
 
-A accesibilidade debería incorporarse tan pronto como comeces a escribir código. A primeira vista, os estándares WCAG poden parecer confusos e complicados. Ademais, pode ser desalentador ter que aprender a usar diferentes tecnoloxías adaptadoras como lectores de pantalla. Aínda que debas superar esa curva de aprendizaxe inicial, cando remates levarache aproximadamente o mesmo tempo escribir código accesible que escribir código non accesible.
+**A accesibilidade debería incorporarse tan pronto como comeces a escribir código**. A primeira vista, os estándares WCAG poden parecer confusos e complicados. Ademais, pode ser desalentador ter que aprender a usar diferentes tecnoloxías adaptadoras como lectores de pantalla. Aínda que debas superar esa curva de aprendizaxe inicial, cando remates levarache aproximadamente o mesmo tempo escribir código accesible que escribir código non accesible.
 
 ### Proba a miúdo
 
-Debería [auditar e probar a accesibilidade web con](https://accessibility.umn.edu/node/296) frecuencia *durante o desenvolvemento* .
+Deberías [auditar e probar a accesibilidade web con](https://accessibility.umn.edu/node/296) frecuencia *durante o desenvolvemento* .
 
 Consulta os teus sitios web e aplicacións web nun navegador para asegurarte de que se mostran e funcionan correctamente. Os complementos e ferramentas do navegador poden axudarche a auditalos mentres codificas. Recoméndase probar o sitio web ou aplicación web mediante un lector de pantalla, inada que non sempre sexa estritamente necesario.
 
@@ -291,15 +329,36 @@ Estamos codificando para que a información sexa accesible ás persoas que usan 
 
 **No proceso desordenado para conseguir codificar un sitio web** ou unha aplicación web, é fácil esquecer ou renunciar á accesibilidade. Recomendamos estas estratexias:
 
-- Crea e utiliza unha lista de verificación para programadores mentres traballas. [Listas de verificación de exemplo](http://webaim.org/standards/wcag/checklist) : lista de verificación [WebAIM](http://webaim.org/standards/wcag/checklist) e [lista de verificación do proxecto A11y](http://a11yproject.com/checklist.html)
-- Fai unha [declaración de accesibilidade como parte do teu modelo de confirmación de código](https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template) .  
+- Crea e utiliza unha lista de verificación para programadores mentres traballas. 
+    - [Listas de verificación de exemplo](http://webaim.org/standards/wcag/checklist): lista de verificación [WebAIM](http://webaim.org/standards/wcag/checklist) e [lista de verificación do proxecto A11y](http://a11yproject.com/checklist.html)
+- Fai unha [declaración de accesibilidade como parte do teu modelo de confirmación de código](https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template).  
 - Fai que as [probas](https://accessibility.umn.edu/node/296) básicas de [accesibilidade](https://accessibility.umn.edu/node/296) formen parte do proceso de garantía de calidade ou de aceptación do usuario.
-- Fai da accesibilidade un requisito creando unha [historia de usuario](http://www.interactiveaccessibility.com/blog/how-write-user-stories-accessibility-requirements) para cada proxecto.
+- Fai da accesibilidade un requisito creando unha [historia de usuario](http://www.interactiveaccessibility.com/blog/how-write-user-stories-accessibility-requirements) para cada proxecto.xº
+
+
+
+## Proba
+
+A mellor maneira de entender como facer que as páxinas sexan accesibles e o impacto das decisións que se toman ao crear HTML é empregar algunhas das ferramientas que emplean os usuarios para navegar pola Web.
+
+Desprázate por un par de páxinas mediante un lector de pantalla. Abre un sitio web que teña un formulario e use só o teclado para completalo. Esta actividade daráche unha idea do que algunos usuarios experimentan a diario al usar la Web y la importancia de garantizar que las páginas sean accesibles.
+
+![Fai a túa web accesible](./assets/make-compliant-website.png)
 
 
 
 Máis información: [interactiveaccessibility](https://interactiveaccessibility.com/blog/how-write-user-stories-accessibility-requirements)
 
-Podes tomar esta lección en [Microsoft Learn](https://docs.microsoft.com/learn/modules/web-development-101/accessibility?WT.mc_id=academic-13441-cxa) !
+[Fai a túa web accesible](https://www.webfx.com/blog/marketing/do-websites-have-to-be-ada-compliant/)
+
+[Accesibilidad Web - Universitat d'Alacant](http://accesibilidadweb.dlsi.ua.es/?menu=pautas-accesibilidad-contenido-web)
+
+[Accesibilidade segundo Google](https://developers.google.com/web/fundamentals/accessibility)
+
+
+Podes tomar esta lección en [Microsoft Learn](https://docs.microsoft.com/learn/modules/web-development-101/accessibility?WT.mc_id=academic-13441-cxa)
+
+
 
 OUT 2021
+Revisión Nov 2021
