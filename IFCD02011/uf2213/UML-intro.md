@@ -25,13 +25,11 @@ UML define a notación e a semántica para os seguintes dominios:
 
 
 
-O UML tamén define mecanismos de extensión para estender o UML para satisfacer necesidades especializadas (por exemplo , extensións [de modelado de procesos de negocio ).](https://sparxsystems-com/platforms/business_process_modeling.html)
+O UML tamén define mecanismos de extensión para estender o UML para satisfacer necesidades especiais (por exemplo , extensións [de modelado de procesos de negocio ).](https://sparxsystems-com/platforms/business_process_modeling.html)
 
 Na II Parte se amplía como usa o UML para definir e construír sistemas reais.
 
-Consulte tamén [Modelado de procesos de negocio (pdf)](https://sparxsystems-com.translate.goog/downloads/whitepapers/The_Business_Process_Model.pdf?_x_tr_sl=auto&_x_tr_tl=gl&_x_tr_hl=gl) .
-
-Se tes algunha suxestión ou comentario sobre o material aquí, envía os teus pensamentos a [sparks@sparxsystems.com](mailto:sparks@sparxsystems.com?_x_tr_sl=auto&_x_tr_tl=gl&_x_tr_hl=gl) .
+~~Tamén podes consultar [Modelado de procesos de negocio (pdf)](https://sparxsystems-com/downloads/whitepapers/The_Business_Process_Model.pdf), ou outras guías da linguaxe UML .~~
 
  
 
