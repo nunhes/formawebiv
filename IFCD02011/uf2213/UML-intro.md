@@ -1,6 +1,6 @@
 # Tutorial UML
 
-A Unified Modeling Language (UML) converteuse rapidamente no estándar de facto para a construción de software orientado a obxectos. Este tutorial ofrece unha visión xeral técnica dos 13 diagramas UML admitidos polo Enterprise Architect. A semántica de UML 2 explícase en detalle no [titorial de UML 2.0](https://sparxsystems-com.translate.goog/resources/tutorials/uml2/index.html?_x_tr_sl=auto&_x_tr_tl=gl&_x_tr_hl=gl) .
+A Unified Modeling Language (UML) converteuse rapidamente no estándar de facto para a construción de software orientado a obxectos. Este tutorial ofrece unha visión xeral técnica dos 13 diagramas UML admitidos polo Enterprise Architect. A semántica de UML 2 explícase en detalle no [titorial de UML 2.0](https://sparxsystems-com/resources/tutorials/uml2/index.html) .
 
 # I Parte
 
@@ -57,7 +57,7 @@ A descrición do caso de uso xeralmente incluirá:
 
 Os casos de uso adoitan estar relacionados con "actores", que son entidades humanas ou de máquina que usan ou interactúan co sistema para realizar un traballo significativo que lles axude a alcanzar un obxectivo. O conxunto de casos de uso aos que un actor ten acceso define o seu papel global no sistema e o alcance da súa acción.
 
-![Actor](C:\laragon\www\uf2213\assets\Actor.gif)
+![Actor](./assets/Actor.gif)
 
 ### Inclúe e amplía as relacións entre casos de uso
 
@@ -77,13 +77,13 @@ Os diagramas de secuencia son unha excelente forma de documentar escenarios de u
 
 O seguinte exemplo de diagrama de secuencia mostra ao usuario ou actor da esquerda iniciando un fluxo de eventos e mensaxes que se corresponden co escenario de caso de uso. As mensaxes que pasan entre obxectos convértense en operacións de clase no modelo final.
 
-![Diagrama de secuencia](C:\laragon\www\uf2213\assets\Sequence.gif)
+![Diagrama de secuencia](./assets/Sequence.gif)
 
 ## Diagrama de implementación
 
 Un caso de uso é unha descrición formal da funcionalidade que terá o sistema cando estea construído. Normalmente, un diagrama de implementación está asociado a un caso de uso para documentar que elementos de deseño (por exemplo, compoñentes e clases) implementan a funcionalidade do caso de uso no novo sistema. Isto proporciona un alto nivel de trazabilidade para o deseñador do sistema, o cliente e o equipo que realmente construirá o sistema. A lista de casos de uso aos que un compoñente ou clase está ligado documenta a funcionalidade mínima que debe implementar o compoñente.
 
-![Diagrama de implementación](C:\laragon\www\uf2213\assets\Implement.gif)
+![Diagrama de implementación](./assets/Implement.gif)
 
 O exemplo anterior mostra que o caso de uso "Iniciar sesión" implementa o requisito formal "1.01 Iniciar sesión no sitio web". Tamén mostra que o compoñente "Lóxica empresarial" e o compoñente "Páxinas ASP" implementan algunha ou toda a funcionalidade de "Iniciar sesión". Outro perfeccionamento é mostrar a pantalla "Iniciar sesión" (unha páxina web) como a implementación do caso de uso "Iniciar sesión". Estes enlaces de implementación ou realización definen a trazabilidade desde os requisitos formais, pasando por casos de uso ata compoñentes e pantallas.
 
@@ -97,25 +97,25 @@ O modelo dinámico úsase para expresar e modelar o comportamento do sistema ao 
 
 Os diagramas de secuencia úsanse para mostrar a interacción entre usuarios, pantallas, obxectos e entidades dentro do sistema. Ofrece un mapa secuencial de mensaxes que pasan entre obxectos ao longo do tempo. Con frecuencia, estes diagramas colócanse baixo Casos de uso do modelo para ilustrar o escenario de caso de uso: como interactuará un usuario co sistema e que ocorre internamente para facer o traballo. Moitas veces, os obxectos represéntanse mediante iconas estereotipadas especiais, como no seguinte exemplo. O obxecto etiquetado Pantalla de inicio de sesión móstrase mediante a icona da Interface de usuario. O obxecto etiquetado SecurityManager móstrase mediante a icona do controlador. O Obxecto etiquetado como usuarios móstrase mediante a icona Entidade.
 
-![img](C:\laragon\www\uf2213\assets\Sequence.gif)
+![Diagrama secuencia](./assets/Sequence.gif)
 
 ### Diagramas de actividades
 
 Os diagramas de actividades utilízanse para mostrar como se constrúen os diferentes fluxos de traballo no sistema, como comezan e os posibles moitos camiños de decisión que se poden tomar de principio a fin. Tamén poden ilustrar onde se pode producir un procesamento paralelo na execución dalgunhas actividades.
 
-![img](C:\laragon\www\uf2213\assets\Actdgm.gif)
+![Diagrama de actividade](./assets/Actdgm.gif)
 
-### Gráficas estatais
+### Gráficas de estado
 
 Os gráficos de estado utilízanse para detallar as transicións ou os cambios de estado polos que pode pasar un obxecto no sistema. Mostran como un obxecto se move dun estado a outro e as regras que rexen ese cambio. Os gráficos de estado normalmente teñen unha condición de inicio e fin.
 
-![img](C:\laragon\www\uf2213\assets\Statedgm.gif)
+![Gráfica de estado](./assets/Statedgm.gif)
 
 ### Modelo de proceso
 
 Un modelo de proceso é unha extensión UML dun diagrama de actividades que se usa para modelar un proceso de negocio; este diagrama mostra o obxectivo que ten o proceso, as entradas, saídas, eventos e información que interveñen no proceso.
 
-![img](C:\laragon\www\uf2213\assets\BPMDGM.jpg)
+![Modelo de proceso](./assets/BPMDGM.jpg)
 
 
 
@@ -131,7 +131,7 @@ O modelo de clase está no núcleo do desenvolvemento e deseño orientado a obxe
 
 A clase está representada como segue:
 
-![Elemento de clase](C:\laragon\www\uf2213\assets\Class1.gif)
+![Elemento de clase](./assets/Class1.gif)
 
 Teña en conta que a clase ten tres áreas distintas:
 
@@ -149,11 +149,11 @@ Os atributos e métodos pódense marcar como
 
 A herdanza de clases móstrase como se indica a continuación: unha clase abstracta neste caso é o pai de dous fillos, cada un dos cales herda as características da clase base e estendeo co seu propio comportamento.
 
-![Herdanza de clase](C:\laragon\www\uf2213\assets\Class2.gif)
+![Herdanza de clase](./assets/Class2.gif)
 
 Os modelos de clase pódense recoller en paquetes de comportamento e estado relacionados. O diagrama de abaixo ilustra isto.
 
-![Unha colección de clases nun paquete](C:\laragon\www\uf2213\assets\Class3.gif)
+![Unha colección de clases nun paquete](./assets/Class3.gif)
 
 
 
@@ -165,7 +165,7 @@ O modelo de compoñentes ilustra os compoñentes de software que se utilizarán 
 
 Un compoñente pode ser algo así como un control ActiveX, xa sexa un control de interface de usuario ou un servidor de regras de negocio. Os compoñentes son debuxados como mostra o seguinte diagrama:
 
-![Elementos compoñentes da mostra](C:\laragon\www\uf2213\assets\Comp1.gif)
+![Elementos compoñentes da mostra](./assets/Comp1.gif)
 
 ### Diagrama de compoñentes
 
@@ -175,13 +175,13 @@ O diagrama de compoñentes mostra a relación entre os compoñentes do software,
 
 Os compoñentes tamén poden expoñer interfaces. Estes son os puntos de entrada visibles ou os servizos que un compoñente está anunciando e poñendo a disposición doutros compoñentes e clases de software. Normalmente un compoñente está formado por moitas clases internas e paquetes de clases. Incluso pode ser ensamblado a partir dunha colección de compoñentes máis pequenos.
 
-![Interfaces de compoñentes](C:\laragon\www\uf2213\assets\Comp2.gif)
+![Interfaces de compoñentes](./assets/Comp2.gif)
 
 #### Compoñentes e nós
 
 Un diagrama de implantación ilustra a implantación física do sistema nun ambiente de produción (ou de proba). Mostra onde estarán os compoñentes, en que servidores, máquinas ou hardware. Pode ilustrar ligazóns de rede, ancho de banda LAN, etc.
 
-![Compoñentes e nós](C:\laragon\www\uf2213\assets\Comp3.gif)
+![Compoñentes e nós](./assets/Comp3.gif)
 
 #### Requisitos
 
@@ -207,13 +207,13 @@ O seguinte exemplo mostra como se poden ligar compoñentes para proporcionar unh
 
 Este diagrama ilustra a disposición dos principais compoñentes do lado do servidor que requirirán a construción dunha librería en liña. Estes compoñentes son unha mestura de elementos personalizados e comprados que se ensamblarán para proporcionar a funcionalidade necesaria.
 
-![Un exemplo de diagrama de compoñentes](C:\laragon\www\uf2213\assets\comp4.gif)
+![Un exemplo de diagrama de compoñentes](./assets/comp4.gif)
 
 #### Compoñentes de seguridade
 
 O diagrama de compoñentes de seguridade mostra como o software de seguranza, como a autoridade de certificación, o navegador, o servidor web e outros elementos do modelo traballan xuntos para garantir as disposicións de seguridade no sistema proposto.
 
-![Compoñentes de seguridade](C:\laragon\www\uf2213\assets\comp5.gif)
+![Compoñentes de seguridade](./assets/comp5.gif)
 
 
 
@@ -223,13 +223,13 @@ O modelo físico ou de implantación proporciona un modelo detallado da forma en
 
 ### Vista de implantación
 
-![Vista de implantación](C:\laragon\www\uf2213\assets\Node1.gif)
+![Vista de implantación](./assets/Node1.gif)
 
 ### Modelo físico
 
 O modelo físico mostra onde e como se implantarán os compoñentes do sistema. É un mapa específico da disposición física do sistema. Un diagrama de implantación ilustra a implantación física do sistema nun ambiente de produción (ou de proba). Mostra onde estarán os compoñentes, en que servidores, máquinas ou hardware. Pode ilustrar ligazóns de rede, ancho de banda LAN, etc.
 
-![Modelo físico](C:\laragon\www\uf2213\assets\pm_2.gif)
+![Modelo físico](./assets/pm_2.gif)
 
 Un nodo úsase para representar calquera servidor, estación de traballo ou outro hardware host usado para implantar compoñentes no ambiente de produción. Tamén pode especificar as ligazóns entre nós e asignarlles estereotipos (como TCP/IP) e requisitos. Os nós tamén poden ter características de rendemento, estándares mínimos de hardware, niveis de sistema operativo, etc. documentados. A seguinte pantalla ilustra as propiedades comúns que pode establecer para un nodo.
 
