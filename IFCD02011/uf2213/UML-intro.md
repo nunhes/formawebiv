@@ -267,3 +267,5 @@ O UML úsase normalmente como parte dun proceso de [desenvolvemento de software]
 *Fonte: https://sparxsystems.com/resources/tutorials/uml/part1.html*
 
 ​	   	*https://sparxsystems.com/resources/tutorials/uml/part2.html*
+
+​		*https://www.tesisenred.net/bitstream/handle/10803/10633/JMPtesis.pdf*

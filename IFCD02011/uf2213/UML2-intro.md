@@ -1,28 +1,34 @@
+# UML2
+
+UML2 é o novo estándar aceptado para especificar, documentar e visualizar sistemas de software. Continua e amplia os usos do seu antecedente UML
+
 ### 1. Diagramas de modelización estrutural
 
 Os diagramas de estrutura definen a arquitectura estática dun modelo. Utilízanse para modelar as "cousas" que compoñen un modelo: as clases, os obxectos, as interfaces e os compoñentes físicos. Ademais, utilízanse para modelar as relacións e dependencias entre elementos.
 
-| 1. Diagramas de paquetes![Paquete](./assets/Package.png)<br>Os diagramas de paquetes utilízanse para dividir o modelo en contedores lóxicos, ou "paquetes", e describir as interaccións entre eles nun alto nivel. | 2. Diagramas de compoñentes![compoñente](./assets/component.png)<br>Os diagramas de compoñentes utilízanse para modelar estruturas de nivel superior ou máis complexas, normalmente construídas a partir dunha ou máis clases, e proporcionando unha interface ben definida. |
+| Modelización Estrutural                                      | Tipos                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 3. Diagramas de clases ou estruturais<br/>![diagrama de clases](./assets/class-diagram.png)<br/>Os diagramas de clases ou estruturais definen os bloques básicos dun modelo: os tipos, clases e materiais xerais utilizados para construír un modelo completo. | 4. Diagramas de implantación<br/>![despregamento](./assets/deployment.png)<br/>Diagramas de despregamento Os diagramas de despregamento mostran a disposición física de artefactos significativos nun escenario do mundo real. |
-| 5. Diagramas de estrutura composta<br/>![composto](./assets/composite.png)<br/>Os diagramas de estrutura composta proporcionan un medio para estratificar a estrutura dun elemento e centrándose nos detalles internos, a construción e as relacións. | 6. Diagramas de obxectos<br/>![obxecto](./assets/object.png)<br/>Os diagramas de obxectos mostran como se relacionan e usan as instancias dos elementos estruturais no tempo de execución. |
-| 7. Diagramas de perfil<br/>![diagrama de perfil](./assets/profile-diagram.png)<br/>Os diagramas de perfil proporcionan unha forma visual de definir extensións lixeiras para a especificación UML. Os perfís UML úsanse a miúdo para definir un grupo de construcións con propiedades e restricións específicas de dominio ou plataforma, que estenden os elementos UML subxacentes. |                                                              |
+| 1. **Diagramas de paquetes**<br/>![Paquete](./assets/Package.png)<br/>Os diagramas de paquetes utilízanse para dividir o modelo en contedores lóxicos, ou "paquetes", e describir as interaccións entre eles nun alto nivel. | 2. **Diagramas de compoñentes**<br/>![compoñente](./assets/component.png)<br/>Os diagramas de compoñentes utilízanse para modelar estruturas de nivel superior ou máis complexas, normalmente construídas a partir dunha ou máis clases, e proporcionando unha interface ben definida. |
+| 3. **Diagramas de clases ou estruturais**<br/>![diagrama de clases](./assets/class-diagram.png)<br/>Os diagramas de clases ou estruturais definen os bloques básicos dun modelo: os tipos, clases e materiais xerais utilizados para construír un modelo completo. | 4. **Diagramas de implantación**<br/>![despregamento](./assets/deployment.png)<br/>Diagramas de despregamento Os diagramas de despregamento mostran a disposición física de artefactos significativos nun escenario do mundo real. |
+| 5. **Diagramas de estrutura composta**<br/>![composto](./assets/composite.png)<br/>Os diagramas de estrutura composta proporcionan un medio para estratificar a estrutura dun elemento e centrándose nos detalles internos, a construción e as relacións. | 6. **Diagramas de obxectos**<br/>![obxecto](./assets/object.png)<br/>Os diagramas de obxectos mostran como se relacionan e usan as instancias dos elementos estruturais no tempo de execución. |
+| 7. **Diagramas de perfil**<br/>![diagrama de perfil](./assets/profile-diagram.png)<br/>Os diagramas de perfil proporcionan unha forma visual de definir extensións lixeiras para a especificación UML. Os perfís UML úsanse a miúdo para definir un grupo de construcións con propiedades e restricións específicas de dominio ou plataforma, que estenden os elementos UML subxacentes. |                                                              |
 
 ### 2. Diagramas de modelización conductual
 
 Os diagramas de comportamento captan as variedades de interacción e estados instantáneos dentro dun modelo a medida que se "executa" ao longo do tempo; rastrexar como actuará o sistema nun ambiente real e observando os efectos dunha operación ou evento, incluídos os seus resultados.
 
-| 8. Diagramas de casos de uso<br/>![caso de uso](./assets/use-case.png)<br/>Os diagramas de casos de uso úsanse para modelar as interaccións usuario/sistema. Definen comportamentos, requisitos e restricións en forma de guións ou escenarios. | 9. Diagramas de secuencia<br/>![secuencia](./assets/sequence.png)<br/>Os diagramas de secuencia están intimamente relacionados cos diagramas de comunicación e mostran a secuencia de mensaxes transmitidas entre obxectos mediante unha liña de tempo vertical. |
+| Modelización conductual                                      | Tipos                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 10. Diagramas de actividades<br/>![actividade](./assets/activity.png)<br/>Os diagramas de actividades teñen un amplo número de usos, desde definir o fluxo básico do programa ata capturar os puntos de decisión e accións dentro de calquera proceso xeneralizado. | 11. Diagramas de temporización<br/>![temporización](./assets/timing.png)<br/>Os diagramas de temporización fusionan diagramas de secuencia e estado para ofrecer unha visión do estado dun obxecto ao longo do tempo e as mensaxes que modifican ese estado. |
-| 12. Diagramas de máquinas de estado<br/>![estado-máquina](./assets/state-machine.png)<br/>Os diagramas da máquina de estados son esenciais para comprender a condición instantánea ou instantánea, ou "estado de execución" dun modelo cando se executa. | 13. Diagramas xerais da interacción<br/>![Interacción](./assets/Interaction.png)<br/>Os diagramas de vista xeral da interacción fusionan os diagramas de actividade e secuencia para permitir que os fragmentos de interacción se combinen facilmente con puntos de decisión e fluxos. |
-| 14. Diagramas de comunicación<br/>![comunicación](./assets/communication.png)<br/>Os diagramas de comunicación mostran a rede e a secuencia de mensaxes ou comunicacións entre obxectos en tempo de execución, durante unha instancia de colaboración. |                                                              |
+| 8. **Diagramas de casos de uso**<br/>![caso de uso](./assets/use-case.png)<br/>Os diagramas de casos de uso úsanse para modelar as interaccións usuario/sistema. Definen comportamentos, requisitos e restricións en forma de guións ou escenarios. | 9. **Diagramas de secuencia**<br/>![secuencia](./assets/sequence.png)<br/>Os diagramas de secuencia están intimamente relacionados cos diagramas de comunicación e mostran a secuencia de mensaxes transmitidas entre obxectos mediante unha liña de tempo vertical. |
+| 10. **Diagramas de actividades**<br/>![actividade](./assets/activity.png)<br/>Os diagramas de actividades teñen un amplo número de usos, desde definir o fluxo básico do programa ata capturar os puntos de decisión e accións dentro de calquera proceso xeneralizado. | 11. **Diagramas de temporización**<br/>![temporización](./assets/timing.png)<br/>Os diagramas de temporización fusionan diagramas de secuencia e estado para ofrecer unha visión do estado dun obxecto ao longo do tempo e as mensaxes que modifican ese estado. |
+| 12. **Diagramas de máquinas de estado**<br/>![estado-máquina](./assets/state-machine.png)<br/>Os diagramas da máquina de estados son esenciais para comprender a condición instantánea ou instantánea, ou "estado de execución" dun modelo cando se executa. | 13. **Diagramas xerais da interacción**<br/>![Interacción](./assets/Interaction.png)<br/>Os diagramas de vista xeral da interacción fusionan os diagramas de actividade e secuencia para permitir que os fragmentos de interacción se combinen facilmente con puntos de decisión e fluxos. |
+| 14. **Diagramas de comunicación**<br/>![comunicación](./assets/communication.png)<br/>Os diagramas de comunicación mostran a rede e a secuencia de mensaxes ou comunicacións entre obxectos en tempo de execución, durante unha instancia de colaboración. |                                                              |
 
 # UML 2 - Diagrama de paquetes
 
 ## Diagramas de paquetes
 
-Os diagramas de paquetes utilízanse para reflectir a organización dos paquetes e os seus elementos. Cando se usan para representar elementos de clase, os diagramas de paquete proporcionan unha visualización dos espazos de nomes. O uso máis común dos diagramas de paquetes é organizar diagramas de casos de uso e diagramas de clases, aínda que o uso de diagramas de paquetes non se limita a estes elementos UML.
+Os diagramas de paquetes utilízanse para reflectir a **organización dos paquetes e os seus elementos**. Cando se usan para representar elementos de clase, os diagramas de paquete proporcionan unha visualización dos espazos de nomes. O uso máis común dos diagramas de paquetes é organizar diagramas de casos de uso e diagramas de clases, aínda que o uso de diagramas de paquetes non se limita a estes elementos UML.
 
 O seguinte é un exemplo de diagrama de paquete.
 
@@ -50,9 +56,9 @@ O conector «import» indica que os elementos do paquete de destino, que neste e
 
 
 
-### Conectores anidados
+### Conectores aniñados
 
-O conector de anidamento entre o paquete de destino e os paquetes orixe mostra que o paquete de orixe está totalmente contido no paquete de destino.
+O conector de aniñado entre o paquete de destino e os paquetes orixe mostra que o paquete de orixe está totalmente contido no paquete de destino.
 
  
 
@@ -80,7 +86,7 @@ Os compoñentes represéntanse como un clasificador rectangular coa palabra clav
 
 ### Conector de montaxe
 
-O conector do conxunto une a interface requirida dun compoñente (Compoñente1) coa interface proporcionada doutro compoñente (Compoñente2); isto permite que un compoñente proporcione os servizos que require outro compoñente.
+O conector do conxunto une a interface requirida dun compoñente (Component1) coa interface proporcionada doutro compoñente (Component2); isto permite que un compoñente proporcione os servizos que require outro compoñente.
 
 ![Conector de montaxe](./assets/CD04.gif)
 
@@ -100,7 +106,7 @@ O uso de portos con diagramas de compoñentes permite especificar un servizo ou 
 
 O diagrama de clases mostra os bloques de construción de calquera sistema orientado a obxectos. Os diagramas de clases representan unha vista estática do modelo, ou parte do modelo, describindo que atributos e comportamento ten en lugar de detallar os métodos para realizar operacións. Os diagramas de clases son máis útiles para ilustrar as relacións entre clases e interfaces. As xeneralizacións, agregacións e asociacións son todas valiosas para reflectir a herdanza, a composición ou o uso e as conexións, respectivamente.
 
-O seguinte diagrama ilustra as relacións de agregación entre clases. A agregación máis lixeira indica que a clase "Conta" usa AddressBook, pero non necesariamente contén unha instancia dela. As agregacións fortes e compostas dos outros conectores indican a propiedade ou a contención das clases de orixe polas clases de destino, por exemplo, os valores de Contacto e ContactGroup estarán contidos en AddressBook.
+O seguinte diagrama ilustra as relacións de agregación entre clases. A agregación máis lixeira indica que a clase "Account" usa AddressBook, pero non necesariamente contén unha instancia dela. As agregacións fortes e compostas dos outros conectores indican a propiedade ou a contención das clases de orixe polas clases de destino, por exemplo, os valores de Contacto e ContactGroup estarán contidos en AddressBook.
 
 ![Diagrama de clases](./assets/cl01.png)
 
@@ -152,7 +158,7 @@ Unha asociación implica que dous elementos do modelo teñen unha relación, nor
 
 ### Xeneralizacións
 
-Unha xeneralización úsase para indicar a herdanza. Debuxada do clasificador específico a un clasificador xeral, a implicación xeralizada é que a fonte herda as características do destino. O seguinte diagrama mostra unha clase pai xeneralizando unha clase filla. Implícitamente, un obxecto instanciado da clase Circle terá atributos x_position, y_position e radio e un método display(). Teña en conta que a clase "Shape" é abstracta, mostrando o nome en cursiva.
+Unha xeneralización úsase para indicar a herdanza. Debuxada do clasificador específico a un clasificador xeral, a implicación xeralizada é que a fonte herda as características do destino. O seguinte diagrama mostra unha clase pai xeneralizando unha clase filla. Implicitamente, un obxecto <u>instanciado</u> da clase Circle terá atributos x_position, y_position e radio e un método display(). Teña en conta que a clase "Shape" é abstracta, mostrando o nome en cursiva.
 
 ![Xeneralización](./assets/CL07.gif)
 
@@ -242,7 +248,7 @@ Ofrécense unha serie de estereotipos estándar para os nodos, a saber, «cdrom�
 
 ### Artefacto
 
-Un artefacto é un produto do proceso de [desenvolvemento de software . ](https://sparxsystems.com/platforms/software_development.html)Isto pode incluír modelos de procesos (por exemplo, modelos de casos de uso, modelos de deseño, etc.), ficheiros fonte, executables, documentos de deseño, informes de probas, prototipos, manuais de usuario, etc.
+Un artefacto é un produto do proceso de [desenvolvemento de software . ](https://sparxsystems.com/platforms/software_development.html)Isto pode incluír modelos de procesos (por exemplo, modelos de casos de uso, modelos de deseño, etc.), arquivos fonte, executables, documentos de deseño, informes de probas, prototipos, manuais de usuario, etc.
 
 Un artefacto denotase cun rectángulo que mostra o nome do artefacto, a palabra clave «artefacto» e unha icona de documento, como se mostra a continuación.
 
@@ -388,53 +394,28 @@ O seguinte diagrama mostra un diagrama de obxectos co seu diagrama de clases def
 
 # Perfís UML
 
+Algúns editores de diagramas permiten o uso de perfís. Os perfís UML proporcionan un mecanismo de extensión xenérico para construír e personalizar modelos UML para determinados dominios e plataformas particulares. Os mecanismos de extensión permiten refinar a semántica estándar dun xeito estritamente aditivo, evitando que contradigan a semántica estándar. Os perfís defínense mediante estereotipos adicionais e valores etiquetados que se aplican a elementos, atributos, métodos, ligazóns, extremos de ligazóns e moito máis. Un perfil é unha colección de tales extensións que, en conxunto, describen algún problema de modelado particular e facilitan construcións de modelado nese dominio  (por exemplo, aeroespacial, sanitario, financeiro; ou plataforma J2EE, .NET,...).. Por exemplo, o Perfil UML para XML, segundo o definido por David Carlson no libro "Modeling XML Applications with UML*(Modelado de aplicacións XML con UML)*", páxina 310, describe un conxunto de extensións aos elementos básicos do modelo UML para permitir un modelado preciso dos esquemas XSD.
 
-Os perfís UML proporcionan un mecanismo de extensión xenérico para construír modelos UML en determinados dominios. Están baseados en estereotipos adicionais e valores etiquetados que se aplican a elementos, atributos, métodos, ligazóns, extremos de ligazóns e moito máis. Un perfil é unha colección de tales extensións que, en conxunto, describen algún problema de modelado particular e facilitan construcións de modelado nese dominio. Por exemplo, o Perfil UML para XML, segundo o definido por David Carlson no libro "Modelado de aplicacións XML con UML", páxina 310, describe un conxunto de extensións aos elementos básicos do modelo UML para permitir un modelado preciso dos esquemas XSD.
+Os perfís UML poden especificarse en arquivos XML, cun formato específico.
 
-Enterprise Architect ten un mecanismo xenérico de perfís UML para cargar e traballar con diferentes perfís. Os perfís UML para Enterprise Architect especifícanse en ficheiros XML, cun formato específico; consulte os exemplos a continuación. Estes ficheiros XML pódense importar a EA na páxina de recursos do navegador do proxecto. Unha vez importado, pode arrastrar e soltar elementos do perfil no diagrama actual. EA anexará ao novo elemento o estereotipo, os valores etiquetados e os valores predeterminados, as notas e mesmo o metarchivo, se se especifica. Tamén pode arrastrar e soltar atributos e operacións nas clases existentes e engadirlles inmediatamente co estereotipo, valores, etc. especificados.
+> Podes [consultar algúns exemplos](https://sparxsystems.com/resources/) na paxina de recursos do programa Enterprise Architect.
 
-Para comezar, a continuación ofrécense algúns perfís para descargar e importar a EA. Co tempo iremos ampliando a gama de Perfís, o contido de cada perfil e o grao de personalización posible en cada perfil. Lembra que sempre podes crear os teus propios perfís para describir escenarios de modelado propios do teu ambiente de desenvolvemento. A continuación tamén se ofrecen máis detalles sobre o traballo con Perfís.
+#### Exemplos
 
+- O perfil UML para [XML](https://hmong-es.translate.goog/wiki/XML?_x_tr_sl=auto&_x_tr_tl=gl&_x_tr_hl=gl) é definido por David Carlson no libro "Modeling XML Applications with UML" pp. 310 e describe un conxunto de extensións a elementos básicos do modelo UML para permitir un modelado preciso dos esquemas [XSD](https://hmong-es.translate.goog/wiki/XSD?_x_tr_sl=auto&_x_tr_tl=gl&_x_tr_hl=gl) .
  
+- [SysML](https://sysml.org) é un perfil estandarizado do [grupo de xestión de obxectos](https://www.omg.org) (OMG) da linguaxe UML usado para aplicacións de enxeñaría de sistemas .
 
-## Información xeral sobre perfís UML en EA
+- O perfil UML para relacións baséase en RM-ODP e proporciona especificacións precisas da semántica dos conceptos UML usados para especificar relacións xenéricas (non necesariamente binarias) como composición e subtipificación.
 
-|                                               |                                                              |
-| --------------------------------------------- | ------------------------------------------------------------ |
-|                                               | **Perfil UML para esquemas XSD** (de "Modelado de aplicacións XML con UML" de David Carlson) Este perfil define un conxunto de estereotipos e valores etiquetados para definir esquemas XSD |
-|                                               | [Perfil de esquema XSD](https://sparxsystems.com/resources/xml_schema_generation.html) |
-|                                               | **Perfil UML para modelado de procesos de negocio** Perfil UML para [modelado empresarial](https://sparxsystems.com/platforms/business_process_modeling.html) derivado do perfil de exemplo na especificación UML 1.4 |
-| ![img](./assets/disk.gif) | [BPProfile.xml](https://sparxsystems.com/downloads/profiles/BPProfile.xml) |
-|                                               | **Eriksson-Penker Extensions for Business Process Modeling** (de "Business Modeling with UML" de Hans-Erik Eriksson e Magnus Penker) Versión revisada proporcionada por [Cephas Consulting](https://enterprisemodelingsolutions.com/) , este perfil utilízase para definir un conxunto de estereotipos para traballar con actividades empresariais, procesos, Obxectos e fluxos de información. |
-| ![img](./assets/disk.gif) | [EP_Extensions.xml](https://sparxsystems.com/downloads/profiles/EP_Extensions.xml) |
-|                                               | **Perfil UML para procesamento distribuído aberto (UML4ODP) Metamodelos** e recursos de perfil de arquitecto empresarial proporcionados por Barry Steer, de [SteerConsulting Services](mailto:bsteer@earthlink.net) . |
-|                                               | [Perfil ODP](https://sparxsystems.com/products/3rdparty/odp/index.html) |
-|                                               | **Perfil UML para modelado web** (de "Construír aplicacións web con UML" de Jim Conallen) Define un conxunto de estereotipos para traballar con páxinas web, servidores, scripts, ASP, JSP e moito máis. *Teña en conta que Enterprise Architect 7.5 e posteriores inclúen o perfil de modelado web* |
-| ![img](./assets/disk.gif) | [WebProfile.xml](https://sparxsystems.com/downloads/profiles/WebProfile.xml) |
-|                                               | **Perfil UML para SPEM** (de "Software Process Engineering Metamodel Specification" de OMG) Define un conxunto de estereotipos para definir procesos e os seus compoñentes mediante a especificación SPEM. *Teña en conta que Enterprise Architect 7.5 e posteriores inclúen a tecnoloxía SPEM 2.0.* |
-|                                               | [Perfil SPEM](https://sparxsystems.com/resources/developers/spem_profile.html) |
+- **MARTE (_Modelado e análise de sistemas embebidos e en tempo real_)**, é o estándar OMG para modelar aplicacións integradas e en tempo real con UML2. O consorcio OMG ampliou a linguaxe de modelado UML para admitir o desenvolvemento baseado en modelos de aplicacións integradas e en tempo real. Esta extensión se ha definido mediante un perfil UML2 denominado MARTE (Modelado e Análise de Sistemas Embebidos e en Tempo Real). 
 
-## Traballando con perfís UML en Enterprise Architect
+​		Esta especificación, MARTE, está dispoñible publicamente no sitio da OMG. Actualmente, hai dúas ferramentas de código 		aberto dispoñibles para o modelado de sistemas utilizando este perfil: 
 
-| Importar un perfil UMLPara importar un perfil necesitará un ficheiro XML de perfil axeitado (como nos exemplos proporcionados anteriormente). Se o perfil inclúe referencias a algún metaficheiro, deberían estar no mesmo directorio que o perfil XML. Para importar un perfil, siga os pasos seguintes: Fai clic co botón dereito no nodo da árbore de Perfís UML na Vista de recursos e selecciona *Importar perfil* no menú contextual, como na parte dereita.Abrirase o diálogo Importar perfil UML.Localice o ficheiro de perfil XML para importar mediante o botón *Examinar [...]* .Establece as opcións de importación necesarias para todos os estereotipos definidos no perfil. Podes seleccionar importar:Tamaño do elemento si/non: marque isto para importar os atributos do tamaño do elemento.Cor e aparencia si/non: marque isto para importar os atributos de cor (fondo, bordo e fonte) e aparencia (grosor do bordo).Imaxe alternativa si/non: marque isto para importar a imaxe do metarchivo.Modelos de código si/non: marque isto para importar os modelos de código se existen.Sobrescribir modelos existentes si/non: marque isto para sobrescribir os modelos de código existentes definidos no proxecto actual.Preme *Importar* . | ![img](./assets/ImportUmlProfiles.gif) |
-| ------------------------------------------------------------ | ---------------------------------------------------------- |
-|                                                              |                                                            |
-| Importar un perfil UMLUsando elementos do perfilA imaxe que se mostra á dereita detalla a rama de perfís para o Perfil de empresa UML e os elementos UML estereotipados dispoñibles**Usa os elementos do perfil do seguinte xeito:**Elementos como clases e interfaces pódense arrastrar directamente desde a xanela do recurso ata o diagrama actualOs atributos pódense arrastrar sobre un elemento host (por exemplo, Clase) - engadiranse automaticamente á lista de características do elementoAs operacións son como Atributos: arrastre sobre un elemento host para engadir a operaciónEngádense ligazóns como Asociacións, Xeneralización, Dependencia seleccionándoas no navegador, despois fai clic no obxecto de inicio nun diagrama e arrastra ata o obxecto final (do mesmo xeito que engadindo ligazóns normais. A ligazón engadirase co novo estereotipo). e información de valor etiquetada.Pódense engadir extremos de asociación arrastrando o elemento final da ligazón sobre o final dunha asociación no diagrama | ![img](./assets/ProjectViewExpand.gif) |
-|                                                              |                                                            |
-
-### Eliminando un perfil
-
-Para eliminar un perfil, fai clic co botón dereito no perfil para eliminalo e selecciona a opción do menú contextual "Eliminar perfil". Teña en conta que isto non afectará negativamente aos elementos xa definidos mediante este perfil. Se está en uso un estereotipo que se importou mediante o Perfil, non se eliminará do modelo cando elimine o perfil.
-
-### Recargando un perfil
-
-Para volver cargar un perfil, primeiro debes eliminar o perfil como se indica arriba e despois importar de novo. Unha versión futura de EA incluirá a posibilidade de actualizar un perfil.
-
-**Un diagrama de exemplo** construído con elementos de perfil ilustra a visualización de estereotipos e valores etiquetados:
-
-![Diagrama de perfil UML](./assets/diagram.gif)
-
+- [Modelio](https://www.modelio.org) proporciona un entorno de modelado de código aberto para deseñar modelos UML de alto nivel utilizando o perfil MARTE e tamén proporciona pautas sobre a utilización do perfil MARTE; 
+- e outra implementación do perfil MARTE  de código aberto baseada en [Eclipse](https://www.eclipse.org/downloads/) está dispoñible en [Papyrus UML](https://www.eclipse.org/papyrus/).
  
+###### Ver tamén: [Estereotipo (UML)](https://en.wikipedia.org/wiki/Stereotype_(UML))
 
 # UML 2 - Diagrama de casos de uso
 
@@ -790,7 +771,7 @@ Unha rexión de expansión é unha rexión de actividade estruturada que se exec
 
 
 
-### Manexadores de excepcións
+### Controladores de excepcións
 
 Os controladores de excepcións pódense modelar en diagramas de actividade como no exemplo seguinte.
 
@@ -800,7 +781,7 @@ Os controladores de excepcións pódense modelar en diagramas de actividade como
 
 ### Rexión de actividade interrompible
 
-Unha rexión de actividade interrompible rodea un grupo de accións que se poden interromper. No exemplo moi sinxelo que aparece a continuación, a acción "Procesar orde" executarase ata a súa finalización, cando pasará o control á acción "Pechar orde", a non ser que se reciba unha interrupción "Cancelar solicitude", que pasará o control á acción "Cancelar orde". "acción.
+Unha rexión de actividade interrompible rodea un grupo de accións que se poden interromper. No exemplo moi sinxelo que aparece a continuación, a acción "Procesar orde" executarase ata a súa finalización, cando pasará o control á acción "*Close order*", a non ser que se reciba unha interrupción "Cancelar solicitude", que pasará o control á acción "*Cancel order*".
 
 ![Rexión de actividade interrompible](./assets/ad13.gif)
 
@@ -1020,12 +1001,14 @@ Nos diagramas de comunicación, os obxectos móstranse con conectores de asociac
 
 Os dous diagramas seguintes mostran un diagrama de comunicación e o diagrama de secuencia que mostra a mesma información. Aínda que é posible derivar a secuencia de mensaxes no diagrama de comunicación a partir do esquema de numeración, non é inmediatamente visible. O que o diagrama de comunicación mostra con bastante claridade é o conxunto completo de mensaxes que se pasan entre obxectos adxacentes.
 
-![img](./assets/com02.gif)
+![Diagrama de comunicación I](./assets/com02.gif)
 
-![img](./assets/com01.gif)
+![Diagrama de comunicación II](./assets/com01.gif)
 
 
 
 ---
 
-Fonte: https://sparxsystems.com/resources/tutorials/uml2/index.html 
+MRZ 2022
+
+*Fonte: https://sparxsystems.com/resources/tutorials/uml2/index.html*

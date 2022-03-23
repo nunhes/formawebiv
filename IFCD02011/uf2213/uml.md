@@ -1,7 +1,7 @@
 ---
 marp: true
 ---
-![bg left](../assets/erd-school.svg)
+![bg left](./assets/erd-school.svg)
 # UML  
 
 ---
@@ -22,7 +22,7 @@ marp: true
 
 ---
 
-![bg 90% right](../assets/UML_class_diagram_hotel-949x683.png)
+![bg 90% right](./assets/UML_class_diagram_hotel-949x683.png)
 
 Con UML se pode diagramar calquera cousa (ou case!), idea de negocio ou procedemento. Os diagramas UML divídense, de xeito xeral, en dous tipos: Diagramas estruturais e Diagramas de comportamento: 
 
@@ -81,7 +81,7 @@ Asuntos a ter en conta ao debuxar un diagrama de clases:
 
 ---
 
-![bg 90% left](../assets/class1-2.png)
+![bg 90% left](./assets/class1-2.png)
 
 **Avaliar visibilidade**
 
@@ -104,7 +104,7 @@ Cun diagrama de clases se amosa claramente o mapeo con linguaxes orientadas a ob
 
 ---
 
-![bg 80%](../assets/class.png)
+![bg 80%](./assets/class.png)
 
 ---
 
@@ -118,7 +118,7 @@ Cun diagrama de clases se amosa claramente o mapeo con linguaxes orientadas a ob
 
 ---
 
-![bg 90%](../assets/UML-shape-library.gif)
+![bg 90%](./assets/UML-shape-library.gif)
 
 ---
 
@@ -279,7 +279,7 @@ Dálle formato aos diagramas de clases *Temas* da barra lateral dereita,  selecc
 
 ---
 
-![bg 80%](../assets/diagrm-clases-relacions.gif)
+![bg 80%](./assets/diagrm-clases-relacions.gif)
 
 
 
