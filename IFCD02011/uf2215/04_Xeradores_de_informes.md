@@ -6,7 +6,7 @@
 | --------------------- | ------------------------------------------------------------ |
 | **CURSO:**            | PROGRAMA DE EMPREGO<br>FORMAWEB IV                           |
 | **MÓDULO**            | MF0966_3. Consulta e manipulación de información contida en xestores de datos |
-| **UNIDADE FORMATIVA** | UF2215: Implementación e uso dunha base de datos             |
+| **UNIDADE FORMATIVA** | UF2215: Ferramentas dos SXBD. Pasarelas e medios de conexión.             |
 | **NºEXP:**            | 36/00004/2021                                                |
 
 [TOC]
