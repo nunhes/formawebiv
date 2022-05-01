@@ -2,13 +2,11 @@
 
 ---
 
-https://www.wikiwand.com/es/Repositorio_(contenido_digital)
+&rarr; https://www.wikiwand.com/es/Repositorio_(contenido_digital)
 
+&rarr; https://biblioguias.ucm.es/acceso-abierto/Inicio
 
-
-[LA AGREGACIÓN DE METADATOS COMO MODELO DE CONTROL, VISIBILIDAD Y DISEMINACIÓN DE INFORMACIÓN DIGITAL DE BIBLIOTECAS, ARCHIVOS Y MUSEOS PATRIMONIALES: EL CASO DE DIGIHUB](https://revista.uclm.es/index.php/ruiderae/article/view/1626)
-
-
+&rarr; https://www.uoc.edu/portal/es/arxiu/gestio-documental/que-es/index.html
 
 ---
 
@@ -16,6 +14,7 @@ https://www.wikiwand.com/es/Repositorio_(contenido_digital)
 
 - [Open Archives Initiative](https://www.openarchives.org/)
   - https://www.openarchives.org/Register/BrowseSites
+  &rarr;  https://biblioguias.ucm.es/acceso-abierto/Inicio
 - [Online Library and Publication Platform | Directory of Open Access Books (doabooks.org)](https://www.doabooks.org/)
 
 - [Directory of Open Access Journals – DOAJ](https://doaj.org/)
@@ -40,6 +39,7 @@ https://www.wikiwand.com/es/Repositorio_(contenido_digital)
 
 - https://getfedora.org/es/
 - https://www.fivefilters.org    (crear un RSS de calquera sitio web)
+- [Organización dos documentos durante o traballo remoto](https://www.emprendepyme.net/como-optimizar-la-gestion-documental-de-tu-empresa-durante-el-teletrabajo.html)
 
 
 
@@ -86,3 +86,7 @@ https://conpilar.kryptonsolid.com/como-crear-un-repositorio-ftp-yum-en-linux
 https://cardinal-systems.com/2021/11/23/repositorio-documental-digital-que-es-y-como-funciona/ 
 
 https://www.kyoceradocumentsolutions.es/es/smarter-workspaces/insights-hub/articles/caracteristicas-diferenciales-en-un-gestor-de-documentos.html 
+
+---
+*_ref:_
+http://travesia.mcu.es/portalnb/jspui/html/10421/1823/intro.htm

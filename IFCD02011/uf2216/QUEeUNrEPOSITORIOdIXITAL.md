@@ -17,7 +17,8 @@ marp: true
 ---
 
 ![bg right](./assets/35931-600x450.jpg)
-## DEFINICIÓN DE REPOSITORIO DIGITAL
+
+## DEFINICIÓN DE REPOSITORIO DIXITAL
 
 ---
 
@@ -25,37 +26,61 @@ marp: true
 
 ---
 
-## Aínda que os repositorios dixitais están en xeral asociados ao ámbito universitario, investigador e docente, o certo é que son instrumentos que poden **ser empregados por calquera empresa ou organización** que se propoña como obxectivo recoller, xestionar e preservar calquera tipo de produción. O obxectivo final é **garantir a consulta e visibilidade de toda esa información**.
+## Na súa orixe os repositorios foron un instrumento para a difusión dos metadatos de preprint (borradores) e de servidores de e-print (ediciones preliminares electrónicas).
 
 ---
 
+## Nese contexto se creou o Protocolo de Arquivos Abertos para Recolección de Metadatos, coñecido comúnmente polas siglas en inglés de *Open Archives Initiative Protocol for Metadata Harvesting* (OAI-PMH).
+
+---
+
+## OAI-PMH acabou convertido nunha solución amplamente coñecida e aceptada para conectar repositorios electrónicos distribuidos de moitas clases, en boa parte debido a súa simplicidade e os baixos custee de implantación.
+
+---
+
+## Algún dos tipos de repositorio dixital se asocia en xeral ao [ámbito universitario, investigador e docente](https://www.udc.es/es/biblioteca/servizos/apoio_investigacion/recursos_info/repositorios_acceso_aberto/). Este tipo de repositorios foron algúns dos primeiros en aparecer. Pero os avances na tecnoloxía enseguida promoveron estes instrumentos documentais e de administración de datos como ferramentas que poden **ser empregadas por calquera empresa ou organización** que se propoña como obxectivo recoller, xestionar e preservar calquera tipo de produción. O obxectivo final é **garantir a consulta e visibilidade de toda esa información**.
+
+---
+
+> ## Cos repositorios dixitais se trata de crear un modelo de control, visibilidade e diseminación de información dixital de bibliotecas, arquivos e museos patrimoniales.
+
+---
 
 ## CARACTERÍSTICAS DUN REPOSITORIO DE DOCUMENTOS
 
+## Para que poidamos falar de repositorio, o deposito ou almacén de datos debería cumprir con certas características:
+
 ---
-## - Baséase nun **sistema de xestión e validación de publicacións**.
+## - Basearse nun **sistema de xestión e validación de publicacións**.
+
 ---
-## - Conta **cun sistema de busca propio** que permite localizar a información que precisamos localizar dun xeito sinxelo e rápido.
+## - Contar **cun sistema de busca propio** que permita localizar a información que precisamos localizar dun xeito sinxelo e rápido.
+
 ---
-## - Almacena **diferentes tipos de arquivos e formatos**, evidentemente en formato dixital.
+## - Almacenar **diferentes tipos de arquivos e formatos**, evidentemente en formato dixital.
+
 ---
-## - Promove **a difusión e exhibición de información** ou contidos.
----
-## - En xeral, os repositorios están dispoñibles en **páxinas web especializadas**, con directorios e listas creadas por universidades e outras institucións.
+## - Promover **a difusión e exhibición de información** ou contidos.
+
+### *- En xeral, os repositorios están dispoñibles en **páxinas web especializadas**, e se presentan como directorios e listas creadas por organismos públicos, universidades e outras institucións.*
 
 ---
 
 ## TIPOS DE REPOSITORIOS DOCUMENTAIS
 
-## Podemos distinguir entre **2 tipos diferentes de repositorios documentais**:
+## De xeito xeral, se poden distinguir distintos tipos:
 
 ---
 
-## 1. **Repositorios Institucionais** . Caracterízanse por **estar creados polas propias organizacións** co fin de conservar, preservar, organizar e clasificar a información relevante que xeran, co fin de posibilitar e facilitar ao máximo a súa consulta por parte dos interesados.<br>Supoñen un compromiso de esa institución co libre acceso á información de valor que xera.<br>**A propiedade desta información pertence a unha determinada institución:** unha universidade, unha empresa, unha asociación, etc.
+## **Repositorios institucionais**: son os creados polas propias organizacións para depositar, usar e preservar a produción científica e académica que xeran. Supoñen un compromiso da institución co acceso aberto ao considerar o coñecemento xerado pola institución como un ben que debe estar dispoñible para toda a sociedade.
 
 ---
 
-## 2. **Repositorios temáticos**. O factor diferencial deste tipo de repositorios é que **os documentos xestionados pertencen a unha área temática concreta** e adoitan ser elaborados por investigadores e expertos.<br>Nestes casos, o nexo común é o tema, xa que a información pode proceder de diversas institucións.
+## **Repositorios temáticos**: son os creados por un grupo de investigadores, institucións, grupos de traballo, etc. que reúnen documentos relacionados cun área temática específica. Este tipo de repositorios é que **os documentos xestionados adoitan ser elaborados por investigadores e expertos**.
+
+---
+
+## **Repositorios de datos**: repositorios que almacenan, conservan e comparten os datos de determinadas investigacións, estudos ou procesos.
 
 ---
 
@@ -67,9 +92,10 @@ marp: true
 ## Son **moitas as vantaxes de contar con repositorios dixitais** , beneficios que chegan tanto ás institucións que os crean como aos estudantes, investigadores e todas as persoas que se benefician intelectualmente de ter acceso a información que pode ser moi valiosa e, ás veces, xerar ben para a sociedade coma enteiro.
 
 ---
-## - A principal vantaxe dos repositorios é que permiten **o acceso aberto a información valiosa**: datos de estudo e investigación, produción científica, etc.
+## - A principal vantaxe dos repositorios é que permiten **o [acceso aberto](https://biblioguias.ucm.es/acceso-abierto/Inicio) a información valiosa**: datos de estudo e investigación, produción científica, etc.
+
 ---
-## - Contribúen a garantir que **os contidos se conserven** a longo prazo
+## - Contribúen a garantir que **os contidos se conserven** a longo prazo.
 
 ---
 ## - Permiten **organizar e clasificar a información**
@@ -100,35 +126,39 @@ marp: true
 ---
 ## - Os repositorios son unha **excelente ferramenta** para recoller, preservar e **difundir a** produción e investigación científica e académica.
 ---
-## - Garanten a seguridade dos datos fronte a incidencias naturais - inundacións, incendios,...-.** E ao tempo que permiten unha xestión controlada no uso, a integridae e o respecto aos dereitos de autor, tamén fan máis fácil a replica e diseminación autorizada e menos custoso facer copias de de respaldo e seguranza.
+## - Garanten a seguridade dos datos fronte a incidencias naturais - inundacións, incendios,...-. Ao tempo que permiten unha xestión controlada no uso, a integridae e o respecto aos dereitos de autor, tamén fan menos custoso facer copias de respaldo e seguranza, e máis difícil a replica non autorizada.
 
 ---
-## - Ademais de para ás organizacións académicas ou científicas, ou para as institucións gobernamentais e civís, os repositorios e, en xeral a xestión documental, é moi vantaxosa para todo tipo de empresas, xa que fai **moito máis eficiente calquera proceso que implique traballar con calquera tipo de documento** : facturas, informes, expedientes dos empregados, nóminas, pedidos, proxectos, formularios, seguimento de clientes e provedores,...
-
----
-
-## Un repositorio **permite almacenar toda a información relevante de calquera organización**, e tamén controlar os ciclos de vida desa información. Deste xeito, é posible ter toda a documentación centralizada e que sexa accesible para todas as persoas autorizadas.
+## - Ademais de para ás organizacións académicas ou científicas, ou para as institucións gobernamentais e civís, os repositorios e, en xeral a xestión documental, é moi vantaxosa, xa que fai **moito máis eficiente calquera proceso que implique traballar con calquera tipo de documento** : facturas, informes, expedientes dos empregados, nóminas, pedidos, proxectos, formularios, seguimento de clientes e provedores,...
 
 ---
 
-## - Ademais, **toda a información pódese indexar** para facilitar futuras buscas. Todo isto permitirache reducir custos e axilizar todo o procesado de documentos.
+## Un repositorio **permite almacenar toda a información relevante de calquera organización**, e tamén controlar os ciclos de vida desa información. Deste xeito, é posible ter toda a documentación centralizada e que sexa accesible para todas as persoas autorizadas. Conservala durante o tempo estritamente necesario e facer un seguimento dos cambios de cada un dos arquivos ou documentos interesados e do conxunto que conforman.
 
 ---
 
-## ALGÚNS RETOS DOS REPOSITORIOS DIXITAIS
+## - Ademais, **toda a información pódese indexar** para facilitar futuras buscas. Todo isto permitirá reducir custos e axilizar todo o procesado e ciclo de vida de datos e documentos.
+
+---
+
+![image-20220501121041373](./assets/image-20220501121041373.png)
+
+---
+
+## ALGÚNS RETOS DOS REPOSITORIOS DIXITAIS DE [ACCESO ABERTO](https://biblioguias.ucm.es/acceso-abierto/Inicio)
 
 ---
 
 ## As vantaxes dos repositorios dixitais son obvias, pero aínda hai **marxe de mellora en varios aspectos**. Para facerse aínda máis útiles, os repositorios dixitais deben superar unha serie de retos que permitan a súa completa optimización:
 
 ---
-## - **Conseguir unha maior visibilidade**, utilizando todos os recursos que existen na actualidade en Internet. Por exemplo, incluír a ligazón ao arquivo dixital en redes e foros profesionais.
+## - **Conseguir unha maior visibilidade**, utilizando todos os recursos que existen na actualidade en Internet. Por exemplo, dispoñendo ligazóns ao arquivo dixital en redes e foros profesionais.
 
 ---
 ## - **Traballar aínda máis na interconexión con outros sistemas** e programas de empresas e institucións
 
 ---
-## - **Mellorar a seguridade**, evitando que os documentos sexan modificados por persoas non autorizadas ou, se así o decidimos, limitar o acceso. En calquera caso, tomando as medidas oportunas, a información nun repositorio queda moito menos exposta que cando se almacenan documentos en papel. Por outra banda, o feito de que a información sexa accesible para todos os empregados non significa que non se poidan establecer distintos niveis de protección da información sensible.
+## - **Mellorar a seguridade**, evitando que os documentos sexan modificados por persoas non autorizadas ou, se así o decidimos, limitar o acceso. En calquera caso, tomando as medidas oportunas, a información nun repositorio queda moito menos exposta que cando se almacenan documentos en papel. Por outra banda, o feito de que a información sexa accesible para todos os interesados non significa que non se poidan establecer distintos niveis de protección da información sensible - niveis de usuario, autorización, subscrición,....
 
 ---
 ## - Implantar **sistemas de busca e organización da información aínda máis eficaces** e xeneralizar o seu uso na medida do posible.
@@ -141,15 +171,16 @@ marp: true
 
 ---
 
-## SISTEMAS DE XESTIÓN DOCUMENTAL
-
----
-
 ![bg 64%](./assets/DMS.png)
 
 ---
 
-## Existen diferentes solucións de xestión documental que che permiten **xestionar de forma eficiente toda a documentación e información valiosa da túa empresa**. 
+## SISTEMAS DE XESTIÓN DOCUMENTAL - DMS
+
+
+---
+
+## Existen diferentes solucións de xestión documental que permiten **xestionar de forma eficiente toda a documentación e información valiosa dunha institución, organismo ou empresa**.
 
 ---
 
@@ -161,7 +192,7 @@ marp: true
 
 ---
 
-## e dese xeito, terías toda a documentación centralizada e accesible a todas as persoas autorizadas grazas á indexación.
+## e dese xeito, ter toda a documentación centralizada e accesible a todas as persoas autorizadas grazas á indexación.
 
 ---
 
@@ -169,7 +200,7 @@ marp: true
 
 ---
 
-## Nas empresas trátanse cada día un número crecente de documentos, que consumen tempo e recursos.
+## Nas [empresas](https://www.kyoceradocumentsolutions.es/es/smarter-workspaces/business-challenges/paperless/la-gestion-documental-definicion-conceptos-clave-e-importancia-en-la-actualidad.html) trátanse cada día un número crecente de documentos, que consumen tempo e recursos.
 
 ---
 
@@ -177,7 +208,7 @@ marp: true
 
 ---
 
-## A xestión manual detes arquivos pode incluso afastar a información da súa utilidade práctica. De aí que se fagan necesarias solucións con certas características - sistema de xestión documental-, que contribúan a conseguir arquivos máis eficientes e a axilizar a tramitación dos documentos e tamén a súa catalogación e consulta.
+## A xestión manual detes arquivos pode incluso afastar a información da súa utilidade práctica. De aí que se fagan necesarias solucións con certas características - [sistema de xestión documental](https://www.uoc.edu/portal/es/arxiu/gestio-documental/que-es/index.html)-, que contribúan a conseguir arquivos máis eficientes e a axilizar a tramitación dos documentos e tamén a súa catalogación e consulta.
 
 ---
 
@@ -193,23 +224,41 @@ marp: true
 
 ---
 
-## -  contribuíndo a axilizar os procesos de documentación, arquivado e consulta. É unha forma de minimizar, as horas de traballo en tarefas moitas veces pouco produtivas.
+## -  contribuíndo a axilizar os procesos de documentación, arquivado e consulta; e minimizar, as horas de traballo en tarefas, moitas veces, pouco produtivas.
 
 ---
 
 ## A demais, un **xestor de documentos axuda a minimizalos erros da intervención humana**, reducindo tamén o tempo de comprobación e corrección.
 
 ---
-## Avantaxas:
 
-- **Almacenamento centralizado**
-- **Almacenamento en arquivos dixitais**
-- **Organizado automaticamente**
-- **Buscas intelixentes**
-- **Recuperación máis rápida**
-- **Redución de erros de transacción**
-- **Preservación de información**
-- **Seguridade no tratamento de datos**
+## Avantaxas dos repositorios dixitais e sistemas de xestión documental:
+
+---
+## Aplicar unha axeitada **xestión documental** na organización e/ou empresa, ten grandes avantaxes:
+
+---
+## **Almacenamento lóxico e organizado** da documentación de cada un dos departamentos da empresa.
+
+---
+## Dixitalización e informatización da información: 
+  ### &rarr; **Organización automatizada**,
+  ### &rarr; **Aforro** en recursos materiais, espazo e tempo.
+
+---
+##  Incremento da **seguridade nos arquivos**, e da **seguridade no tratamento de datos**. Ás que se suma a xestión dos permisos e niveis de acceso baixo condicións seguras - indexación, usuario/clave, restrición de acceso,...-.
+
+---
+##  Melloras no arquivado e **preservación de información**, con copias de seguridade recorrentes e estancas; ou máis recentemente co **almacenamento na nube**, o que evita as perdas de arquivos e o deterioro da documentación.
+
+---
+## **Compartir** a información coas persoas que o necesiten é máis fácil:
+  ### &rarr; **Buscas intelixentes**
+  ### &rarr; **Recuperación máis rápida**
+  ### &rarr; **Redución de erros de transacción**
+
+---
+## Historial e control de versións dos documentos e do repositorio. Control do ciclo de vida dos datos, os documentos, e incluso dos procesos mesmos da xestión documental.
 
 ---
 

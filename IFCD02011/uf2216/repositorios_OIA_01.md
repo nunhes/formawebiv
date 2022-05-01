@@ -1,7 +1,7 @@
 # OAI
 
 O protocolo de Arquivos Abertos para Recolección de Metadatos, coñecido polas súas siglas en inglés OAI-PMH(*Open Archives Initiative Protocol for Metadata Harvesting*). 
- 
+
 Na súa orixe foi un instrumento para a difusión dos metadatos de preprint (borradores) e de servidores de e-print (edicións preliminares electrónicas), OAI-PMH acabou convertido nunha solución amplamente coñecida para conectar repositorios electrónicos distribuídos de moitas clases, e debe gran parte da súa aceptación a súa simplicidade e ao baixo custe da súa implantación.
 
 ### *Iniciativa Arquivos Abertos:*
