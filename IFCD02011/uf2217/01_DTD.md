@@ -1,4 +1,4 @@
-## ¿Qué é un DTD?
+## Que é un DTD?
 
 Un DTD (*Document Type Definition*) é un conxunto de regras sintácticas para definir etiquetas. Indica que etiquetas se poden usar nun documento, en que orden deben aparecer, cales poden aparecer dentro de outras, cales teñen atributos, etc. Toda esta información se garda nun arquivo de texto con extensión `.dtd`.
 

@@ -1,25 +1,11 @@
+
+[TOC]
+
 # XSLT
 
 [XSLT](https://www.w3.org/TR/2017/REC-xslt-30-20170608/) é a linguaxe de transformación de [XML](https://www.w3.org/XML/). Ao igual que XSL-FO e [XPath](https://www.data2type.de/es/xml-xslt-xslfo/xpath/), XSLT é un subconxunto de XSL.
 
 A través das denominadas follas de estilo é posible aplicar regras que serven de base para a xeración dun documento final. As follas de estilo son interpretadas por un procesador XSLT que genera o documento XML deseado en función de estas regras.
-
-[TOC]
-
-- [Procesadores XSLT](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/procesadores-xslt#c3854)
-- [Guía de iniciación rápida](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/guia-de-inicio-rapido#c3859)
-- [O elemento ](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/introduccion-a-xslt-el-elemento-ltxsloutputgt-descripcion-del-elemento-top-level-output#c3883)
-- [Reglas de patrón](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/regras-de-plantilla#c3885)
-- [Valores dos nodos](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/valores-de-nodos#c3892)
-- [Bucles](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/bucles#c3895)
-- [Condicións](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/condiciones#c3900)
-- [Ordenación](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/ordenacion#c3905)
-- [Numeración](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/numeracion#c3910)
-- [Variables e parámetros](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/variables-y-parametros#c3349)
-- [Módulos](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/modulos#c3928)
-
-
-
 
 
 ## Procesadores e ferramentas XSLT
@@ -44,6 +30,7 @@ Para poder ver XSLT en acción é necesario un [programa de procesamento](https:
 | **Saxon**             | Procesador gratuíto dispoñible tanto en versión Java como en Win32. A saída se obtén por consola. [Descargar Saxon](http://saxon.sourceforge.net/) |
 | **MSXML 4.0**         | O procesador de Microsoft é unha parte integrante de Internet Explorer a partir da versión 5.5. |
 | **FreeFormatter.com** | Para probas en liña [Free Online XSL Transformer (XSLT)](https://freeformatter.com/xsl-transformer.html) |
+| **XSLTranform.net**   | http://xsltransform.net                                      |
 
 # Guía de inicio rápido
 
@@ -52,7 +39,7 @@ Primeiro presentamos a estrutura básica dunha folla de estilo XSLT para a trans
 #### O arquivo de exemplo ``poema.xml``:
 
 ```xml
-<?xml versoion="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE antologia SYSTEM "poema.dtd">
 <antologia>
     <poema añodepublicacion="1905" idioma="de">
@@ -412,9 +399,7 @@ Käse wohl, indessenMan deckt ihn zu. ΌμηροςΙλιάδαΜηνιν άει�
 </html>
 ```
 
-#### Vista do navegador:
-
-[![img](./assets/Gedicht-esp.png)](https://www.data2type.de/fileadmin/images/Gedicht-esp.png)
+#### Vista do navegador:![img](./assets/Gedicht-esp.png)
 
 
 
@@ -436,17 +421,13 @@ As regras de patrón (template) son modelos (patterns) para a transformación da
 
 #### Estructura da regra
 
-
-
-[![Estructura da regra](./assets/templ-esp.jpg)](https://www.data2type.de/fileadmin/images/xml/templ-esp.jpg)
-
-
+![Estructura da regra](./assets/templ-esp.jpg)
 
 Para amosar o funcionamento dos modelos ampliamos a folla de estilo do exemplo con algúns pequenos patróns.
 
 #### A folla de estilo:
 
-```markup
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output encoding="iso-8859-1" />
@@ -493,7 +474,7 @@ Para amosar o funcionamento dos modelos ampliamos a folla de estilo do exemplo c
 
 #### Vista do navegador:
 
-[![Vista do navegador](./assets/plantillasXSLT.png)](https://www.data2type.de/fileadmin/images/xml/plantillasXSLT.png)
+![Vista do navegador](./assets/plantillasXSLT.png)
 
 
 
@@ -515,7 +496,7 @@ No exemplo dado os patróns se aplican a os elementos (nodos na estrutura do doc
 
 #### A folla de estilo:
 
-```markup
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output encoding="iso-8859-1" version="1.0"/>
@@ -554,9 +535,9 @@ c) Que ocorre si non se executa algún elemento?
 
 [>> ver solucións do exercicio 2](https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/soluciones#c4537)
 
-# Acceder a os valores dos nodos
+# Acceder aos valores dos nodos
 
-Para acceder a os contidos dos nodos se recorre ao elemento **<xsl:value-of>** co seu atributo obrigatorio **select**. O patrón establece a posición na árbore fonte. O atributo **select** do elemento **<xsl:value-of>** determina o valor que debe ser copiado na árbore resultado. É posible, por exemplo, seleccionar o nome, o contido ou o atributo dun nodo. Para a selección do nodo actual pode aparecer o signo "**``.``**" no canto do nome do elemento. Este signo se usa para extraer o contido do elemento actual. Para seleccionar atributos se pode antepor o carácter **``@``** ao nome do atributo. No caso de que se seleccione un elemento con subelementos, os seguintes posibles patróns (sin a chamada mediante **<xsl:apply-templates>**) serán ignorados e só se mostrará o texto seleccionado. Neste contexto mostramos o seguinte exemplo:
+Para acceder aos contidos dos nodos se recorre ao elemento **<xsl:value-of>** co seu atributo obrigatorio **select**. O patrón establece a posición na árbore fonte. O atributo **select** do elemento **<xsl:value-of>** determina o valor que debe ser copiado na árbore resultado. É posible, por exemplo, seleccionar o nome, o contido ou o atributo dun nodo. Para a selección do nodo actual pode aparecer o signo "**``.``**" no canto do nome do elemento. Este signo se usa para extraer o contido do elemento actual. Para seleccionar atributos se pode antepor o carácter **``@``** ao nome do atributo. No caso de que se seleccione un elemento con subelementos, os seguintes posibles patróns (sin a chamada mediante **<xsl:apply-templates>**) serán ignorados e só se mostrará o texto seleccionado. Neste contexto mostramos o seguinte exemplo:
 
 #### A folla de estilo:
 
@@ -603,7 +584,7 @@ Para acceder a os contidos dos nodos se recorre ao elemento **<xsl:value-of>** c
 
 #### Vista do navegador:
 
-[![img](./assets/Gedicht-esp-16528165784127.png)](https://www.data2type.de/fileadmin/images/Gedicht-esp.png)
+****![img](./assets/Gedicht-esp-16528165784127.png)
 
 
 
@@ -706,7 +687,7 @@ Como se veu anteriormente, os contidos do documento de orixe poden copiarse no d
 
 #### O resultado na vista do navegador:
 
-[![Vista do navegador](./assets/gedichtindice.png)](https://www.data2type.de/fileadmin/images/gedichtindice.png)
+![Vista do navegador](./assets/gedichtindice.png)
 
 # Condicións
 
@@ -770,7 +751,7 @@ O elemento **<xsl:if>** nos permite crear condicións. O elemento consta dun atr
 
 #### Vista do navegador:
 
-[![Vista do navegador](./assets/ejemplo2.png)](https://www.data2type.de/fileadmin/images/xml/ejemplo2.png)
+![Vista do navegador](./assets/ejemplo2.png)
 
 
 
@@ -902,7 +883,7 @@ No seguinte exemplo os poemas se ordenarán segundo o ano de publicación.
 
 #### Vista do navegador:
 
-[![Ordenación](./assets/ordenacion.png)](https://www.data2type.de/fileadmin/images/xml/ordenacion.png)
+![Ordenación](./assets/ordenacion.png)
 
 
 
@@ -1265,7 +1246,7 @@ Aquí se contarán todos os elementos **poema** en todos os niveis, xa que se ll
 
 #### Vista do navegador
 
-[![Vista do navegador - Ejemplo de numeración](./assets/numeracion.png)](https://www.data2type.de/fileadmin/images/xml/numeracion.png)
+![Vista do navegador - Ejemplo de numeración](./assets/numeracion.png)
 
 
 
@@ -1342,7 +1323,7 @@ O concepto de variable é especialmente importante no traballo práctico con XSL
 
 #### Vista do navegador
 
-[![Vista do navegador](./assets/variables.png)](https://www.data2type.de/fileadmin/images/xml/variables.png)
+![Vista do navegador](./assets/variables.png)
 
 
 
@@ -1394,7 +1375,7 @@ _.ref:_
 
 [What is XSLT? (xml.com)](https://www.xml.com/articles/2017/01/01/what-is-xslt/)
 
-##### https://desarrolloweb.com/articulos/477.php
+https://desarrolloweb.com/articulos/477.php
 
 http://juangualberto.github.io/lmsgi/tema01/tecnologas_xml.html
 
