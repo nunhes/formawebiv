@@ -1,3 +1,7 @@
+---
+sidebarDepth: 2
+---
+
 ## Desenvolvemento web
 
 Un **desenvolvedor web** é a persoa encargada de crear sitios web a través de código complexo e lograr que os usuarios dun sitio poidan levar a termo diferentes accións en el.
