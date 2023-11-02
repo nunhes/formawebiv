@@ -1,16 +1,16 @@
-# formaweb iv
+# MegaBoot
 
-Guías e lecturas complementarias para o Obradoiro de emprego **Formaweb IV**.
+Guías e lecturas complementarias para os certificados de profesionalidade 
+- IFCD02010 Desenvolvemento de aplicacións con tecnoloxías web
+- IFCD02011 Sistemas de xestión de información
 
-Concello de Vigo
-
-
-
-
+Esta coleción de textos foron fornecidos como lecturas complementarias aos talleres:
+- Obradoiro de emprego **Formaweb IV** do Concello de Vigo, ano 2021-2022
+- Taller AFD de formación profesional non regrada en Mega Estudios, ano 2023
 
 ismael bernardez, titor
 @nunhes
 
 ___
 
-OUT 2021
+OUT 2023
