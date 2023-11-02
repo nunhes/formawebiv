@@ -1,6 +1,5 @@
 ---
 marp: true
-​---
 ---
 
 #  Conceptos da administración de bd
